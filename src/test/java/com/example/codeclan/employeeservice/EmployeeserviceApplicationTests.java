@@ -26,7 +26,7 @@ class EmployeeserviceApplicationTests {
 	}
 
 	@Test
-	public void createEmployeeAndDepartment(){
+	public void createEmployeeAndDepartmentAndProject(){
 		Department department = new Department("Software Development");
 		departmentRepository.save(department);
 		Project project = new Project("Traveline Scotland Website Improvement", 14);
